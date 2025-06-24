@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/print.css" />
+        <link rel="stylesheet" href="css/mediaqueries.css" />
+    </head>
+    <body>
+      <header>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav id="desktop-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div>
+              <ul class="nav-links">
+                <li><a href="index.html"  title="If you want to see my Homepage you can click on this link">My Homepage</a></li>
+                <li><b>My Portfolio</b></li>
+                <li><a href="resume.html"  title="If you want to see my Resume you can click on this link">My Resume</a></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link">Contact me</a></li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="hamburger-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <ul class="nav-links">
+                <li><a href="index.html" title="If you want to see my Homepage you can click on this link" onclick="toggleMenu()">My Homepage</a></li>
+                <li><b>My Portfolio</b></li>
+                <li><a href="resume.html" title="If you want to see my Resume you can click on this link" onclick="toggleMenu()">My Resume</a></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link" onclick="toggleMenu()">Contact me</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main id="main-content">
+          <section id="summary">
+            <h1 class="portfolio-title">This is my <b>Portfolio</b> - here I will display all my <b>Projects</b> and all important information about my <b>Skills & Expertise</b>.</h1>
+            <div class="summary-section-container">
+                <div class="about-details-container">
+                  <nav>
+                    <ul class="nav-links-bottom-portfolio">
+                      <li><a href="#projects"  title="If you want to skip to my Projects click here"><b>Projects</b></a></li>
+                      <li><a href="#skills"  title="If you want to skip to my Skills you can click on this link"><b>Skills</b></a></li>
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+          </section>
+          <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h2 class="title">Projects</h2>
+            <div class="experience-details-container">
+              <div class="about-containers">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <figure>
+                    <img
+                      src="media/image.jpg"
+                      alt="Project 1 image"
+                      class="project-img"
+                    />
+                  </figure>
+                  </div>
+                  <h3 class="experience-sub-title project-title">Project One</h3>
+                  <div class="btn-container">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/vukdragas'"
+                      >
+                      Github
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <figure>
+                    <a href="media/image(1).jpg" target="_self">
+                      <img
+                      src="media/image(1).jpg"
+                      alt="Project 2 image"
+                      class="project-img"
+                    />
+                    </a>
+                  </figure>
+                  </div>
+                  <h3 class="experience-sub-title project-title">Project Two</h3>
+                  <div class="btn-container">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/vukdragas'"
+                      >
+                      Github
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <figure>
+                    <a href="media/image(2).jpg" target="_self">
+                      <img
+                      src="media/image(2).jpg"
+                      alt="Project 3 image"
+                      class="project-img"
+                    />
+                    </a>
+                  </figure>
+                  </div>
+                  <h3 class="experience-sub-title project-title">Project Three</h3>
+                  <div class="btn-container">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/vukdragas'"
+                      >
+                      Github
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                      <figure>
+                      <a href="media/image(3).jpg" target="_self">
+                        <img
+                        src="media/image(3).jpg"
+                        alt="Project 4 image"
+                        class="project-img"
+                      />
+                      </a>
+                    </figure>
+                    </div>
+                    <h3 class="experience-sub-title project-title">Project Four</h3>
+                    <div class="btn-container">
+                      <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/vukdragas'"
+                      >
+                      Github
+                    </button>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </section>
+          <section id="skills">
+            <p class="section__text__p1">Explore My</p>
+            <h2 class="title">Skills</h2>
+            <aside>
+              <table class="skills-table">
+                <thead>
+                  <tr>
+                    <th>Institution</th>
+                    <th>Skills</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ELTE University</td>
+                    <td>C#, HTML/CSS + BootStrap, Java, C, Haskell, OOP</td>
+                  </tr>
+                  <tr>
+                    <td>ITAcademy</td>
+                    <td>C#, HTML/CSS + JavaScript, Java, SQL</td>
+                  </tr>
+                  <tr>
+                    <td>Symphony.is</td>
+                    <td>Python, GitHub</td>
+                  </tr>
+                </tbody>
+              </table>              
+            </aside>
+          </section>
+        </main>
+        <footer>
+          <section class="bottom-section-contact" id="return">
+            <h2 class="title-contact">Return to: </h2>
+            <div class="contact-info-upper-container">
+              <nav>
+                <ul class="nav-links-bottom">
+                  <li><a href="#summary"  title="If you want to return to top of my Portfolio">Beginning</a></li>
+                  <li><a href="#projects"  title="If you want to return to my Projects you can click on this link">Projects</a></li>
+                  <li><a href="#skills"  title="If you want to return to my Skills you can click on this link">Skills</a></li>
+                </ul>
+              </nav>
+            </div>    
+            <p>Vuk Dragaš's Portfolio</p>
+            <nav>
+              <ul class="nav-links-footer">
+                <li><a href="index.html"  title="If you want to see my Homepage you can click on this link">My Homepage</a></li>
+                <li><b>My Portfolio</b></li>
+                <li><a href="resume.html"  title="If you want to see my Resume you can click on this link">My Resume</a></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link">Contact me</a></li>
+              </ul>
+            </nav>
+          </section>
+        </footer>
+      <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Resume</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/print.css" />
+        <link rel="stylesheet" href="css/mediaqueries.css" />
+    </head>
+    <body>
+      <header>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav id="desktop-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div>
+              <ul class="nav-links">
+                <li><a href="index.html"  title="If you want to see my Homepage you can click on this link">My Homepage</a></li>
+                <li><a href="portfolio.html"  title="If you want to see my Portfolio you can click on this link">My Portfolio</a></li>
+                <li><b>My Resume</b></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link">Contact me</a></li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="hamburger-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <ul class="nav-links">
+                <li><a href="index.html" title="If you want to see my Homepage you can click on this link" onclick="toggleMenu()">My Homepage</a></li>
+                <li><a href="portfolio.html" title="If you want to see my Portfolio you can click on this link" onclick="toggleMenu()">My Portfolio</a></li>
+                <li><b>My Resume</b></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link" onclick="toggleMenu()">Contact me</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main id="main-content">
+          <section id="summary">
+            <h1 class="portfolio-title">This is my <b>Resume</b> - here I will display all important info about my: <b>Work Experiance and Education</b>                        </h1>
+            <div class="summary-section-container-2">
+                <div class="about-details-container">
+                  <nav>
+                    <ul class="nav-links-bottom-portfolio">
+                      <li><a href="#experiance"  title="If you want to skip to my Experience click here"><b>My Work Experience</b></a></li>
+                      <li><a href="#education"  title="If you want to skip to my Education you can click on this link"><b>Education</b></a></li>
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+          </section>
+          <section id="experience">
+            <h2 class="title">My Work Experience</h2>
+            <div class="section-container-experiance">
+                <img
+                  src="media/symphonyis_logo.jpeg"
+                  alt="Symphony.is logo picture"
+                  class="about-pic-2"
+                />
+                  <p class="about-text-2"><b>Python Mentorship Program Participant</b><br>
+                    <b>Symphony.is | 2023</b><br>
+                    • Completed an intensive 10-week mentorship program focused on <b>Python programming fundamentals</b>.<br>
+                    • Worked on <b>problem-solving tasks</b> and <b>real-world applications</b> to strengthen <b>programming logic.</b><br>
+                    • Gained exposure to industry best practices and coding standards
+                  </p>
+            </div>
+            </section>
+            <section id="education">
+                <h2 class="title">Education</h2>
+                <div class="about-container">
+                    <div class="about-item">
+                    <img
+                      src="media/unnamed.png" alt="ITAcademy's logo picture" class="about-pic-2"/>
+                      <p class="about-text-3"><b>Software Development Student</b><br>
+                      <b>ITAcademy | 2022 – 2024</b><br>
+                        • Gained hands-on experience in <b>C#</b>, <b>Java</b>, <b>HTML/CSS</b>, and <b>JavaScript</b> through a structured <b>software development program</b>.<br>
+                        • Developed foundational knowledge of <b>web development</b> and <b>object-oriented programming</b>, while building projects like
+                        Calculator app and similar.
+                        </p>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <div class="about-item">
+                    <img
+                      src="media/images.png" alt="ELTE logo picture" class="about-pic-2"/>
+                      <p class="about-text-3"><b>Computer Science Student</b><br>
+                        <b>Eötvös Loránd University | 2024 – Present</b><br>
+                        • Currently pursuing a <b>Bachelor’s degree in Computer Science</b> with coursework in <b>C#</b>, <b>C</b>, <b>Haskell</b>, and <b>Java (OOP).</b><br>
+                        • Member of <b>University AI Development Club</b> where I explored <b>machine learning</b>, <b>automation</b>, participated in <b>workshops</b> and <b>industry discussions</b>.
+                        </p>
+                    </div>
+                </div>
+                </section>
+              </main>
+              <footer>
+                  <section class="bottom-section" id="return">
+                    <h2 class="title-contact">Return to: </h2>
+                    <div class="contact-info-upper-container">
+                      <nav>
+                        <ul class="nav-links-bottom">
+                          <li><a href="#summary"  title="If you want to return to top of my Portfolio you can click this link">Beginning</a></li>
+                          <li><a href="#experience"  title="If you want to return to my Experience you can click on this link">Experiance</a></li>
+                          <li><a href="#education"  title="If you want to return to my Education you can click on this link">Education</a></li>
+                        </ul>
+                      </nav>
+                    </div>    
+                    <p>Vuk Dragaš's Portfolio</p>
+                    <nav>
+                      <ul class="nav-links-footer">
+                <li><a href="index.html"  title="If you want to see my Homepage you can click on this link">My Homepage</a></li>
+                <li><a href="portfolio.html"  title="If you want to see my Portfolio you can click on this link">My Portfolio</a></li>
+                <li><b>My Resume</b></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link">Contact me</a></li>
+                      </ul>
+                    </nav>
+              </section>
+            </footer>
+              <script src="js/script.js"></script>
+    </body>
+</html>

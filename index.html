@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to Vuk Dragaš's Portfolio</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/print.css" />
+        <link rel="stylesheet" href="css/mediaqueries.css" />
+      </head>
+    <body>
+      <header>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav id="desktop-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div>
+              <ul class="nav-links">
+                <li><b>My Homepage</b></li>
+                <li><a href="portfolio.html"  title="If you want to see my Portfolio you can click on this link">My Portfolio</a></li>
+                <li><a href="resume.html"  title="If you want to see my Resume you can click on this link">My Resume</a></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link">Contact me</a></li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="hamburger-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <ul class="nav-links">
+                <li><b>My Homepage</b></li>
+                <li><a href="portfolio.html" title="If you want to see my Portfolio you can click on this link" onclick="toggleMenu()">My Portfolio</a></li>
+                <li><a href="resume.html"  title="If you want to see my Resume you can click on this link" onclick="toggleMenu()">My Resume</a></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link">Contact me</a></li>
+              </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main id="main-content">
+          <section id="profile">
+            <div class="section__pic-container">
+              <img src="media/2024-C_Dragas_Vuk_Nr14412.JPG" class="profile-pic" alt="Vuk Dragaš profile picture" />
+            </div>
+            <div class="section__text">
+              <p class="section__text__p1">Hello, I am</p>
+              <h1 class="title">Vuk Dragaš</h1>
+              <p class="section__text__p2">Second semester Computer Science student at Eötvös Loránd University.</p>
+              <p class="section__text__p3">Welcome to my portfolio!</p>
+              <div class="summary-section-container">
+                <div class="about-details-container">
+                  <nav>
+                    <ul class="nav-links-bottom">
+                      <li><a href="#shortbio"  title="If you want to skip to my Shortbio click here"><b>About me</b></a></li>
+                      <li><a href="#summary"  title="If you want to skip to my Professional Summary you can click on this link"><b>Professional Summary</b></a></li>
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+            </div>
+          </section>
+          <section id="shortbio">
+            <p class="section__text__p4">Get To Know More</p>
+            <h2 class="title">About Me</h2>
+            <div class="section-container">
+                <div class="section__pic-container-3"></div>
+                <div class="about-details-container">
+                  <p class="about-text">
+                    "I am a second-semester <b>Computer Science</b> student with a passion for programming and technology. Throughout my studies I
+                    got strong foundation in programming languages such as <b>C</b>, <b>C#</b>, <b>Python</b> and <b>Java</b>. I am eager to apply my knowledge in a realworld 
+                    setting and gain hands-on experience. I am passionate about <b>Software Engineering</b> and <b>Artificial Intelligence</b>, and continuously learning new
+                    technologies to grow as a professional in the tech industry."
+                  </p>
+                  <div id="socials-container">
+                    <ul class="nav-links-bottom">
+                      <li><a href="https://www.linkedin.com/in/vuk-dragaš-b56010285"                       
+                        title="If you would like to see My LinkedIn profile click on this button"
+                        ><b>LinkedIn</b></a></li>
+                      <li><a href="https://github.com/vukdragas"
+                        title="If you would like to see My GitHub profile click on this button"
+                        ><b>GitHub</b></a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          </section>
+          <section id="summary">
+            <h2 class="summary-title">Professional summary</h2>
+            <div class="summary-section-container">
+                <div class="about-details-container">
+                  <p class="summary-text">
+                    <i>"In 2022, while still a high school student, I enrolled in <b>ITAcademy’s Software Development program</b>, where I gained
+                    foundational knowledge in programming languages such as <b>C#</b>, <b>HTML/CSS</b>, and <b>JavaScript</b>. Later, I participated in the
+                    <b>Symphony.is mentorship program</b>, completing an intensive 10-week course focused on the fundamentals of <b>Python</b>. In 2024, I
+                    began pursuing a <b>Bachelor's degree</b> in <b>Computer Science</b> at <b>Eötvös Loránd University</b>, where I have further expanded my
+                    expertise by learning <b>C</b>, <b>Haskell</b>, and <b>Object-Oriented Programming in Java</b>. I am eager to apply my skills and continue growing
+                    through hands-on experience in a professional environment."</i>
+                  </p>
+                </div>
+            </div>
+          </section>
+        </main>
+          <footer>    
+          <section class="bottom-section" id="return">
+            <h2 class="title-contact">Return to: </h2>
+            <div class="contact-info-upper-container">
+              <nav>
+                <ul class="nav-links-bottom">
+                  <li><a href="#profile"  title="If you want to return to top of my Homepage">Beginning</a></li>
+                  <li><a href="#shortbio"  title="If you want to return to my Shortbio you can click on this link">About me</a></li>
+                  <li><a href="#summary"  title="If you want to return to my Professional Summary you can click on this link">Professional summary</a></li>
+                </ul>
+              </nav>
+            </div>
+            <p>Vuk Dragaš's Homepage</p>
+            <nav>
+              <ul class="nav-links-footer">
+                <li><b>My Homepage</b></li>
+                <li><a href="portfolio.html"  title="If you want to see my Portfolio you can click on this link">My Portfolio</a></li>
+                <li><a href="resume.html"  title="If you want to see my Resume you can click on this link">My Resume</a></li>
+                <li><a href="contact.html"  title="If you would like to Contact me you can click this link">Contact me</a></li>
+              </ul>
+            </nav>
+          </section>
+          </footer>
+      <script src="js/script.js"></script>
+    </body>
+</html>

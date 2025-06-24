@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact me</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/print.css" />
+        <link rel="stylesheet" href="css/mediaqueries.css" />
+    </head>
+    <body>
+      <header>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav id="desktop-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div>
+              <ul class="nav-links">
+                <li><a href="index.html"  title="If you want to see my Homepage you can click on this link">My Homepage</a></li>
+                <li><a href="portfolio.html"  title="If you want to see my Portfolio you can click on this link">My Portfolio</a></li>
+                <li><a href="resume.html"  title="If you want to see my Resume you can click on this link">My Resume</a></li>
+                <li><b>Contact me</b></li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="hamburger-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <ul class="nav-links">
+                <li><a href="index.html" title="If you want to see my Homepage you can click on this link" onclick="toggleMenu()">My Homepage</a></li>
+                <li><a href="portfolio.html" title="If you want to see my Portfolio you can click on this link" onclick="toggleMenu()">My Portfolio</a></li>
+                <li><a href="resume.html"  title="If you want to see my Resume you can click on this link" onclick="toggleMenu()">My Resume</a></li>
+                <li><b>Contact me</b></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main id="main-content">
+          <section id="summary">
+            <h1 class="summary-title-2">My contact details</h1>
+            <div class="summary-section-container">
+                <div class="about-details-container-3">
+                  <p>Name: <b>Vuk Dragaš</b></p>
+                  <p>Email: <a href="mailto:wolfdragas@gmail.com"><b>wolfdragas@gmail.com</b></a> </p>
+                  <p>Phone(BIH/HU): <a href="tel:+38766783693"><b>+387 66 783 693</b></a> / <a href="tel:+36709486889"><b>+36 70 948 6889</b></a></p>
+                  <p>Location: <b>Sarajevo, Bosnia and Herzegovina</b> / <b>Budapest, Hungary</b></p>
+                  <p><a href="https://www.linkedin.com/in/vuk-dragaš-b56010285"                       
+                    title="If you would like to see My LinkedIn profile click on this button"
+                    ><b>My LinkedIn</a></p>
+                  <p><a href="https://github.com/vukdragas"
+                    title="If you would like to see My GitHub profile click on this button"
+                    ><b>My GitHub</b></a></p>
+                </div>
+            </div>
+          </section>
+    </main>
+          <script src="js/script.js"></script>
+    </body>
+</html>

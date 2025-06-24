@@ -1,0 +1,24 @@
+body, p {
+    font-size: 20px;
+    color: #000 !important;
+    background: #fff !important;
+    line-height: 1.6;
+    font-weight: 900 !important;
+  }
+  
+  * {
+    color: #000 !important;
+    background-color: #fff !important;
+  }
+  
+  a {
+    color: #0000EE !important;
+    text-decoration: underline !important;
+  }
+  
+  button, input, select, textarea {
+    font-size: 20px !important;
+    border: 2px solid #000 !important;
+    padding: 0.5em !important;
+  }
+  

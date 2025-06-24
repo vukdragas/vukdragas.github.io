@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Demo</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/print.css" />
+        <link rel="stylesheet" href="css/mediaqueries.css" />
+    </head>
+    <body>
+      <header>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <nav id="desktop-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div>
+              <ul class="nav-links">
+                <li><b>Demo Page</b></li>
+                <li><a href="index.html"  title="If you want to see my Homepage you can click on this link">My Homepage</a></li>
+                <li><a href="portfolio.html"  title="If you want to see my portfolio you can click on this link">My Portfolio</a></li>
+              </ul>
+            </div>
+          </nav>
+          <nav id="hamburger-nav">
+            <div class="logo">Vuk Dragaš</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <ul class="nav-links">
+                <li><a href="index.html" title="If you want to see my Homepage you can click on this link" onclick="toggleMenu()">My Homepage</a></li>
+                <li><a href="portfolio.html" title="If you want to see my Portfolio you can click on this link" onclick="toggleMenu()">My Portfolio</a></li>
+                <li><b>Demo Page</b></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <main id="main-content">
+        <article>
+          <section id="demo">
+            <h1 class="demo1"> Demo of User Menagement System:</h1>
+            <div class="summary-section-container">
+                <div class="about-details-container-demo">
+                  <details>
+                    <summary>Full Video Description</summary>
+                    <div><pre>
+<b>User Management:</b> 
+• <b>Create new users</b> with <b>name</b>, <b>age</b>, <b>ID</b>, and <b>group assignments</b> 
+• <b>Modify existing user information</b> (<b>name</b> and <b>age</b>) 
+• <b>Delete users</b> from the system 
+• <b>View individual user details</b> or <b>all users</b> in the system  
+<b>Group Management:</b> 
+• <b>Predefined groups</b> with specific IDs (<b>root</b>, <b>system users</b>, <b>operators</b>, <b>observers</b>) 
+• Each user can belong to up to <b>4 groups (MAX_GROUPS)</b> 
+• Ability to <b>add users to additional groups</b>  
+<b>System Operations:</b> 
+• <b>Count total number of users</b> in the system 
+• <b>Export all user data</b> to a <b>text file</b> 
+• <b>Display system information</b> in a <b>tabular format</b>  
+<b>Initialization:</b> 
+• System starts with a default <b>"root"</b> user with <b>admin privileges</b> 
+• <b>Root user</b> is automatically assigned to <b>all predefined groups</b>  
+<b>Technical Implementation:</b> 
+• Uses <b>linked list</b> data structure for storing <b>user records</b> 
+• Implements basic <b>memory management</b> with <b>malloc/free</b> 
+• Provides <b>console-based menu interface</b> 
+• Supports <b>file I/O</b> for <b>data export</b>  
+This project demonstrates fundamental <b>C programming concepts</b> including <b>structures</b>, 
+<b>pointers</b>, <b>dynamic memory allocation</b>, <b>file handling</b>, and <b>linked list operations</b>, 
+making it an excellent example of a <b>console-based management system</b>.
+                      </pre>
+                    </div>
+                  </details>
+                  <div class="video-container">
+                    <video controls poster="media/demo2.png" title="Demo video for my User Management System in C" src="media/demo.mp4" > 
+                    Your browser does not support this video.
+                    </video>
+                  </div>
+                </div>
+            </div>
+          </section>
+        </article>
+      </main>
+        <footer>    
+          <section class="bottom-section" id="return">
+            <h2 class="title-contact">Return to: </h2>
+            <nav>
+              <ul class="nav-links-footer">
+                <li><a href="#demo"  title="If you want to return to my Demo you can click on this link"><b>My Demo</b></a></li>
+                <li><a href="index.html"  title="If you want to see my Homepage you can click on this link">My Homepage</a></li>
+                <li><a href="portfolio.html"  title="If you want to see my portfolio you can click on this link">My Portfolio</a></li>
+              </ul>
+            </nav>
+      </section>
+    </footer>
+      <script src="js/script.js"></script>
+    </body>
+</html>

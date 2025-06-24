@@ -1,0 +1,118 @@
+@media print {
+  * {
+  margin: 0 !important;
+  padding: 0 !important;
+  float: none !important;
+  }
+  
+  body {
+  font-family: "Times New Roman", serif;
+  font-size: 10pt; 
+  line-height: 1.1; 
+  width: 100% !important;
+  margin: 0.5cm !important; 
+  }
+  
+  nav, footer, video, .btn, iframe, 
+  .accessibility-container, #socials-container,
+  .icon, .section__pic-container-3 {
+  display: none !important;
+  margin: 0 0 0 0;
+  }
+
+  .profile-pic {
+  display: none;
+  }
+  .article-container {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 4pt !important;
+  margin: 0 !important;
+  }
+  .skills-table {
+  width: 100% !important;
+  max-width: 15cm !important;
+  margin: 0 auto !important;
+  font-size: 8pt !important;
+  border-collapse: collapse;
+  }
+  .skills-table th, 
+  .skills-table td {
+  padding: 2pt 4pt !important;
+  border: 0.5pt solid #ccc !important;
+  }
+    
+  .skills-table td:first-child {
+  width: 30% !important;
+  font-weight: bold;
+  }
+  
+  a {
+  text-decoration: none !important;
+  color: #000 !important;
+  }
+  a[href^="http"]:after {
+  content: " (" attr(href) ")";
+  font-size: 7pt;
+  }
+  
+  h1, h2, h3 {
+  font-size: 12pt !important;
+  margin: 4pt 0 !important;
+  page-break-after: avoid;
+  }
+
+  .project-title {
+  margin: 2pt 0 !important;
+  font-size: 10pt !important;
+  }
+  
+  section {
+  display: block !important;
+  height: auto !important;
+  margin: 0 0 0 0 !important;
+  padding: 0 !important;
+  }
+  #profile {
+  display: block !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  page-break-inside: avoid;
+  }
+    
+  .profile-pic {
+  width: 80px !important; 
+  height: 80px !important;
+  margin: 0 8pt 0 0 !important; 
+  float: left;
+  }
+    
+  .section__text {
+  margin-left: 88px !important; 
+  padding-top: 0 !important;
+  overflow: hidden; 
+  }
+
+  .section__text p,
+  .section__text h1,
+  .section__text h2 {
+    margin: 0 0 2pt !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  .title {
+    font-size: 12pt !important;
+    margin-bottom: 2pt !important;
+  }
+
+  #profile br {
+    display: none !important;
+  }
+  
+  @page {
+      margin: 0.5cm;
+      size: auto;
+    }
+  }
