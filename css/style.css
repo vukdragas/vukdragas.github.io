@@ -430,6 +430,7 @@ a:hover {
 #socials-container {
   display: flex;
   justify-content: center;
+  margin-top: 0.7rem;
   gap: 1rem;
 }
 .icon {
